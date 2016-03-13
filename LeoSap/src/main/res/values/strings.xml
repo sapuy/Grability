@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">LeoSap</string>
+
+    <string name="acercade">LeoSap\n\nDesarrollado por Leonardo Sapuy como prueba para la empresa Imaginamos/Grability\n\nleonardo.sapuy@hotmail.com</string>
+
+    <string name="error_toast_noconnected">No hay conexión a internet</string>
+    <string name="error_toast_noservidor">Ocurrió un problema con el servidor</string>
+    <string name="error_toast_errordesconocido">Ha ocurrido un error, intenta de nuevo</string>
+
+    <!--Splash-->
+    <string name="splash_tv1">LeoSap</string>
+    <string name="splash_tv2">Prueba Imaginamos/Grability</string>
+
+    <!--Principal-->
+    <string name="principal_titulo">Top Apps</string>
+    <string name="principal_cargando">Descargando datos</string>
+    <!--Menu Principal-->
+    <string name="menu_principal_recargar">Recargar</string>
+    <string name="menu_principal_detalles">Acerca de</string>
+
+    <!--Detalles-->
+    <string name="detalles_released">Lanzado el: </string>
+    <string name="detalles_free">Gratis</string>
+    <!--Menu Detalles-->
+    <string name="menu_detalles_itunes">Ver en iTunes</string>
+    <string name="menu_detalles_desarrollador">Más de este desarrollador</string>
+
+    <bool name="portrait_only">true</bool>
+
+</resources>

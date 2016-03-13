@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/leosap_gris_claro">
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="85dp">
+
+
+
+        <FrameLayout
+            android:layout_gravity="left|center_vertical"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:id="@+id/frame_ly">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/lv_historial_iv1"
+                android:src="@mipmap/ic_launcher"
+                android:background="@color/leosap_transparente"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                />
+
+            <RelativeLayout
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:gravity="right"
+                android:layout_gravity="right"
+                android:background="@drawable/gradient_gris_vertical"></RelativeLayout>
+
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/frame_ly"
+
+            android:layout_marginLeft="@dimen/margin10"
+            android:layout_marginRight="@dimen/margin20"
+            android:layout_marginTop="@dimen/margin10">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Nombre App"
+                android:id="@+id/lv_historial_tv1"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/listview_iv1"
+                android:layout_toEndOf="@+id/listview_iv1"
+                android:textIsSelectable="false"
+                android:textColor="@color/leosap_azul_oscuro"
+                android:textSize="@dimen/text18"
+                android:singleLine="true"
+                android:layout_marginTop="@dimen/margin5" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/margin5">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Categoria"
+                    android:id="@+id/lv_historial_tv2"
+                    android:layout_centerVertical="true"
+                    android:textIsSelectable="false"
+                    android:textColor="@color/leosap_azul"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:textSize="@dimen/text15"
+                    android:singleLine="true" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Precio"
+                    android:id="@+id/lv_historial_tv3"
+                    android:layout_centerVertical="true"
+                    android:textIsSelectable="false"
+                    android:textColor="@color/leosap_azul"
+                    android:layout_gravity="center_vertical|right"
+                    android:gravity="right"
+                    android:textSize="@dimen/text15" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

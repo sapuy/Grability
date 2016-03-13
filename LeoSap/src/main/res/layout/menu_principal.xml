@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/leosap_gris_medio">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/menu_principal_recargar"
+        android:id="@+id/menu_principal_item3"
+        android:textColor="@color/leosap_azul_oscuro"
+        android:textSize="@dimen/text20"
+        android:clickable="true"
+        android:onClick="onClickMenu"
+        android:paddingLeft="@dimen/margin20"
+        android:paddingTop="@dimen/margin10"
+        android:paddingRight="@dimen/margin10"
+        android:paddingBottom="@dimen/margin10" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/separador"
+        android:id="@+id/imageView7"
+        android:background="@color/leosap_gris_oscuro" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/menu_principal_detalles"
+        android:id="@+id/menu_principal_item1"
+        android:textColor="@color/leosap_azul_oscuro"
+        android:textSize="@dimen/text20"
+        android:paddingLeft="@dimen/margin20"
+        android:paddingTop="@dimen/margin10"
+        android:paddingRight="@dimen/margin10"
+        android:paddingBottom="@dimen/margin10"
+        android:clickable="true"
+        android:onClick="onClickMenu" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/separador"
+        android:id="@+id/imageView7"
+        android:background="@color/leosap_gris_oscuro" />
+</LinearLayout>

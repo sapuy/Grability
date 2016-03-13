@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="SlideMenu-">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/LeoSap/build/intermediates/exploded-aar/SlideMenu/res" />
+      <root url="jar://$PROJECT_DIR$/LeoSap/build/intermediates/exploded-aar/SlideMenu/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\leonardo-pc\Dropbox\WorkSpaces\LeoSap - Grability\LeoSap\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\libs\internal_impl-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="C:\Users\leonardo-pc\Dropbox\WorkSpaces\LeoSap - Grability\LeoSap\build\intermediates\pre-dexed\debug\internal_impl-22.2.1-91e67b8c61f3fe43ea4b131995891b3907cee995.jar" />
+    </item>
+    <item
+        jar="C:\Users\leonardo-pc\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.1\support-annotations-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="C:\Users\leonardo-pc\Dropbox\WorkSpaces\LeoSap - Grability\LeoSap\build\intermediates\pre-dexed\debug\support-annotations-22.2.1-0362da8a7b4b1c58ab7ecfb2231bdece05250771.jar" />
+    </item>
+    <item
+        jar="C:\Users\leonardo-pc\Dropbox\WorkSpaces\LeoSap - Grability\LeoSap\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="C:\Users\leonardo-pc\Dropbox\WorkSpaces\LeoSap - Grability\LeoSap\build\intermediates\pre-dexed\debug\classes-61251af705a996ae371f4c79b20209c7ffcaebe6.jar" />
+    </item>
+    <item
+        jar="C:\Users\leonardo-pc\Dropbox\WorkSpaces\LeoSap - Grability\LeoSap\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="C:\Users\leonardo-pc\Dropbox\WorkSpaces\LeoSap - Grability\LeoSap\build\intermediates\pre-dexed\debug\classes-9a9b9dad81cf4fb76ffd657741d6edce499d824c.jar" />
+    </item>
+    <item
+        jar="C:\Users\leonardo-pc\Dropbox\WorkSpaces\LeoSap - Grability\LeoSap\build\intermediates\exploded-aar\SlideMenu\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="38de06d9c6fd0e7829cce908b671b62dd137dbdc">
+        <dex dex="C:\Users\leonardo-pc\Dropbox\WorkSpaces\LeoSap - Grability\LeoSap\build\intermediates\pre-dexed\debug\classes-1f5122d444fe680e7fabf4fe1b74cff9c8c1d8ee.jar" />
+    </item>
+    <item
+        jar="C:\Users\leonardo-pc\Dropbox\WorkSpaces\LeoSap - Grability\LeoSap\build\intermediates\exploded-aar\com.cjj.materialrefeshlayout\library\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="597d857fe9b090c4582f0855a2c6d6cc45fec544">
+        <dex dex="C:\Users\leonardo-pc\Dropbox\WorkSpaces\LeoSap - Grability\LeoSap\build\intermediates\pre-dexed\debug\classes-e192fb9f32e888531f809a4b657b307a940ca5eb.jar" />
+    </item>
+
+</items>

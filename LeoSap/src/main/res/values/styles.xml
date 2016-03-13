@@ -1,0 +1,27 @@
+<resources>
+
+    <!-- Base application theme. -->
+
+    <style name="AppTheme" parent="android:Theme.Holo.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+
+
+    </style>
+
+    <color name="leosap_negro">#000000</color>
+    <color name="leosap_verde">#c1d6d8</color>
+    <color name="leosap_azul">#3c5e8e</color>
+    <color name="leosap_azul_oscuro">#243957</color>
+    <color name="leosap_transparente">#00FFFFFF</color>
+    <color name="leosap_gris_claro">#E1E1E1</color>
+    <color name="leosap_gris_medio">#c6c6c6</color>
+    <color name="leosap_gris_oscuro">#9b9b9b</color>
+    <color name="leosap_blanco">#FFFFFF</color>
+    <color name="leosap_blanco_trans">#CCFFFFFF</color>
+    <array name="colors">
+
+        <item>#3c5e8e</item>
+        <item>#243957</item>
+
+    </array>
+</resources>

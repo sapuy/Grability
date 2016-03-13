@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"  tools:context=".principal"
+    android:background="@color/leosap_gris_claro">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/principal_cargando"
+        android:id="@+id/ly_principal_tv_cargando"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_centerInParent="true"
+        android:textColor="@color/leosap_azul_oscuro" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/ly_principal_ll">
+        <com.cjj.MaterialRefreshLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/refresh"
+            app:overlay="false"
+            app:wave_show="true"
+            android:animateLayoutChanges="true"
+            app:wave_color="@color/leosap_azul_oscuro"
+            app:progress_colors="@array/colors"
+            app:wave_height_type="normal">
+            <GridView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ly_principal_lv"
+                android:divider="@color/leosap_gris_oscuro"
+                android:dividerHeight="1dp"
+                android:numColumns="3" />
+</com.cjj.MaterialRefreshLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

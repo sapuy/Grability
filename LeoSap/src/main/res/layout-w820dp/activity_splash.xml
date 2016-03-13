@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"  tools:context=".splash"
+    android:background="@color/leosap_azul_oscuro">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/splash_tv1"
+        android:id="@+id/ly_splash_tv1"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/text55"
+        android:textColor="@color/leosap_gris_claro"
+        android:background="@color/leosap_transparente" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/splash_tv2"
+        android:id="@+id/ly_splash_tv2"
+        android:textSize="@dimen/text20"
+        android:textColor="@color/leosap_gris_claro"
+        android:layout_below="@+id/ly_splash_tv1"
+        android:layout_centerHorizontal="true"
+        android:background="@color/leosap_transparente" />
+</RelativeLayout>

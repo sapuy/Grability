@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="55dp">
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/leosap_azul_oscuro">
+
+        <ImageButton
+            android:layout_width="35dp"
+            android:layout_height="50dp"
+            android:id="@+id/actionbar_back"
+            android:src="@drawable/arrow"
+            android:background="@color/leosap_transparente"
+            android:adjustViewBounds="true"
+            android:layout_gravity="left|center_vertical"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:scaleType="fitCenter"
+            android:onClick="onClickAB"
+            android:paddingTop="@dimen/margin15"
+            android:paddingBottom="@dimen/margin15"
+            android:paddingLeft="@dimen/margin15" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:id="@+id/actionbar_title"
+
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/margin10"
+            android:layout_marginBottom="@dimen/margin10"
+            android:text="Titulo"
+            android:textSize="@dimen/text23"
+            android:gravity="center_vertical|center_horizontal"
+            android:textColor="@color/leosap_gris_claro"
+            android:layout_marginRight="@dimen/margin50"
+            android:layout_marginLeft="@dimen/margin50"
+            android:singleLine="true" />
+
+        <ImageButton
+            android:layout_width="45dp"
+            android:layout_height="50dp"
+            android:id="@+id/actionbar_menu"
+            android:src="@drawable/menu"
+            android:background="@color/leosap_transparente"
+            android:adjustViewBounds="false"
+            android:layout_gravity="center_vertical|right"
+            android:onClick="onClickAB"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:scaleType="fitCenter"
+            android:paddingRight="@dimen/margin20" />
+    </RelativeLayout>
+
+</LinearLayout>
+

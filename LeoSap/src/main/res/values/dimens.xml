@@ -1,0 +1,28 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+
+    <dimen name="margin5">5dp</dimen>
+    <dimen name="margin10">10dp</dimen>
+    <dimen name="margin12">12dp</dimen>
+    <dimen name="margin15">15dp</dimen>
+    <dimen name="margin20">20dp</dimen>
+    <dimen name="margin25">25dp</dimen>
+    <dimen name="margin30">30dp</dimen>
+    <dimen name="margin50">50dp</dimen>
+    <dimen name="text25">25dp</dimen>
+    <dimen name="text55">55dp</dimen>
+    <dimen name="text23">23dp</dimen>
+    <dimen name="text20">20dp</dimen>
+    <dimen name="text15">15dp</dimen>
+    <dimen name="text18">18dp</dimen>
+    <dimen name="separador">1dp</dimen>
+
+
+    <!-- SlidingMenu -->
+    <dimen name="sliding_menu_shadow_width">15dp</dimen>
+    <dimen name="sliding_menu_offset">65dp</dimen>
+
+</resources>
